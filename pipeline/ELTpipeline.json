@@ -393,7 +393,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "AzureSqlTable1",
+						"referenceName": "AzureDImCustomer",
 						"type": "DatasetReference"
 					}
 				]

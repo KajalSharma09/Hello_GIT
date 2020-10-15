@@ -1,0 +1,133 @@
+{
+	"name": "AzureDImCustomer",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "CustomerKey",
+				"type": "varchar"
+			},
+			{
+				"name": "GeographyKey",
+				"type": "varchar"
+			},
+			{
+				"name": "CustomerAlternateKey",
+				"type": "varchar"
+			},
+			{
+				"name": "Title",
+				"type": "varchar"
+			},
+			{
+				"name": "FirstName",
+				"type": "varchar"
+			},
+			{
+				"name": "MiddleName",
+				"type": "varchar"
+			},
+			{
+				"name": "LastName",
+				"type": "varchar"
+			},
+			{
+				"name": "NameStyle",
+				"type": "varchar"
+			},
+			{
+				"name": "BirthDate",
+				"type": "varchar"
+			},
+			{
+				"name": "MaritalStatus",
+				"type": "varchar"
+			},
+			{
+				"name": "Suffix",
+				"type": "varchar"
+			},
+			{
+				"name": "Gender",
+				"type": "varchar"
+			},
+			{
+				"name": "EmailAddress",
+				"type": "varchar"
+			},
+			{
+				"name": "YearlyIncome",
+				"type": "varchar"
+			},
+			{
+				"name": "TotalChildren",
+				"type": "varchar"
+			},
+			{
+				"name": "NumberChildrenAtHome",
+				"type": "varchar"
+			},
+			{
+				"name": "EnglishEducation",
+				"type": "varchar"
+			},
+			{
+				"name": "SpanishEducation",
+				"type": "varchar"
+			},
+			{
+				"name": "FrenchEducation",
+				"type": "varchar"
+			},
+			{
+				"name": "EnglishOccupation",
+				"type": "varchar"
+			},
+			{
+				"name": "SpanishOccupation",
+				"type": "varchar"
+			},
+			{
+				"name": "FrenchOccupation",
+				"type": "varchar"
+			},
+			{
+				"name": "HouseOwnerFlag",
+				"type": "varchar"
+			},
+			{
+				"name": "NumberCarsOwned",
+				"type": "varchar"
+			},
+			{
+				"name": "AddressLine1",
+				"type": "varchar"
+			},
+			{
+				"name": "AddressLine2",
+				"type": "varchar"
+			},
+			{
+				"name": "Phone",
+				"type": "varchar"
+			},
+			{
+				"name": "DateFirstPurchase",
+				"type": "varchar"
+			},
+			{
+				"name": "CommuteDistance",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DimCustomer"
+		}
+	}
+}
